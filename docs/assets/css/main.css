@@ -2098,6 +2098,21 @@ input, select, textarea {
 					border-top: solid 0.6em #282828;
 				}
 
+/* Logos styling */
+
+	.logos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+		margin-top: 15px;
+	}
+
+	.logos img {
+		max-width: 45%;
+		height: auto;
+	}
+
 /* Articles */
 
 	body > article {
