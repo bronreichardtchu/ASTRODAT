@@ -282,6 +282,13 @@ input, select, textarea {
 
 		}
 
+/* Column */
+
+	.column {
+		float: left;
+		width: 50%;
+	}
+
 /* Row */
 
 	.row {
@@ -2049,12 +2056,19 @@ input, select, textarea {
 	}
 
 		#nav ul {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			overflow-x: auto;
+			background: inherit;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
 		}
 
 		#nav li {
+			flex: 0 1 auto;
+			min-width: 100px;
 			display: inline-block;
 			padding-left: 0;
 		}
@@ -2390,6 +2404,14 @@ input, select, textarea {
 			#nav {
 				height: 44px;
 				line-height: 44px;
+			}
+			#nav ul {
+				flex-wrap: wrap;
+				overflow-x: auto;
+			}
+
+			#nav ul li {
+				min-width: 100px;
 			}
 
 				#nav a {
