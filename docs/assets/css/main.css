@@ -282,6 +282,13 @@ input, select, textarea {
 
 		}
 
+/* Column */
+
+	.column {
+		float: left;
+		width: 50%;
+	}
+
 /* Row */
 
 	.row {
