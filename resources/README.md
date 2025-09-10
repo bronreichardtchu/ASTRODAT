@@ -6,4 +6,4 @@ Tutorials and talks given at the ASTRODAT workshop, September 2025.  Topics cove
 - Test Driven Development in Astronomy (James Nightingale [Jammy2211](https://github.com/Jammy2211))
 - Debugging your code (Sarah Johnston: [sarahcjohnston](https://github.com/sarahcjohnston))
 - Bayesian Graphical and Hierarchical Models (James Nightingale [Jammy2211](https://github.com/Jammy2211))
-- Example Talk Name (A. N. Author, github handle)
+- Intro to Simulation-Based Inference (SBI) (Kiyam Lin [Kiyam](https://github.com/Kiyam))
