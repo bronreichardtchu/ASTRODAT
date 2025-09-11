@@ -4,6 +4,7 @@ Tutorials and talks given at the ASTRODAT workshop, September 2025.  Topics cove
 - Version management with git for collaborative coding (K. E. Harborne: [kateharborne](https://github.com/kateharborne))
 - Scientific Software Development (Samuel Farrens: [sfarrens](https://github.com/sfarrens))
 - Test Driven Development in Astronomy (James Nightingale [Jammy2211](https://github.com/Jammy2211))
+- Project Management at Scale (Alastair Basden)
 - Debugging your code (Sarah Johnston: [sarahcjohnston](https://github.com/sarahcjohnston))
 - Scientific computing and inference with JAX (Matt Graham: [matt-graham](https://github.com/matt-graham))
 - Bayesian Inference and Sampling (Natalia Porqueres: [nataliaporqueres](https://github.com/nataliaporqueres))
