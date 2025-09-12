@@ -11,3 +11,4 @@ Tutorials and talks given at the ASTRODAT workshop, September 2025.  Topics cove
 - Bayesian Graphical and Hierarchical Models (James Nightingale [Jammy2211](https://github.com/Jammy2211))
 - Intro to Simulation-Based Inference (SBI) (Kiyam Lin [Kiyam](https://github.com/Kiyam))
 - Simulation-Based Inference in Practice (Maximilian von Wietersheim-Kramsta [mwiet](https://github.com/mwiet))
+- How to package and release your code (Bronwyn Reichardt Chu [bronreichardtchu](https://github.com/bronreichardtchu))
