@@ -75,7 +75,7 @@
 				</div>
 			</article>
 
-		<!-- Schedule -->
+		<!-- Speakers -->
 			<article id="speakers2025" class="wrapper style3">
 				<div class="container">
                     <header>
@@ -94,6 +94,45 @@
 						<a href="https://bronreichardtchu.github.io/" target="_blank" rel="noopener noreferrer">Bron Reichardt Chu</a> (Durham University)<br>
 				</div>
 			</article>
+
+        <!-- Team Results -->
+            <article id="results2025" class="wrapper style2">
+                <div class="container">
+                    <header>
+                        <h2>Team Outputs from ASTRODAT 2025</h2>
+                    </header>
+                    <p>
+                        During the workshop, participants were placed in teams based on common research interests to work on data analysis projects. Below are short summaries of their projects, and the links to the repositories where you can find the code and documentation for each team's project.
+                    </p>
+                    <div class="row aln-center" style="margin-top: 2em;">
+                        <div class="col-6 col-8-medium col-12-small">
+                            <h3>Team Captain America</h3>
+                            <p>
+                                Developed <a href="https://github.com/sfarrens/captain_america/tree/main" target="_blank" rel="noopener noreferrer">Glass Cannon</a>: An add-on package from <a href="https://github.com/glass-dev/glass" target="_blank" rel="noopener">GLASS</a> to simulate the galaxy and HI fields. These fields are simulated using bias factors on the dark matter field, which take three cosmological parameters as input: h, OmegaC, and OmegaB. The package then allows for the angular power spectra (Cl) on the auto and cross correlation from both fields. Simulation-based inference using neural likelihood estimation can then be done on these Cls to infer the three cosmological parameters named earlier.
+                            </p>
+                        </div>
+                        <div class="col-5 col-4-medium col-8-small">
+                            <span class="image fit"><img src="images/TeamCaptainAmerica.jpeg" alt="Team Captain America group photo" /></span>
+                        </div>
+                        <div class="col-6 col-8-medium col-12-small">
+                            <h3>Team Black Widow</h3>
+                            <p>
+                                In the <a href="https://github.com/Bjarki-B/BlackWidow" target="_blank" rel="noopener noreferrer">BlackWidow</a> (Bayesian Line Analysis Code (K) WIth Dust Or Without) project, we have been using Bayesian inference to infer gas-phase abundances using analytical models from Curti et al. 2020. We all learned new skills in collaborative coding (150 commits to the BlackWidow repo!!!), emission line science and Bayesian statistics. These skills will be carried into our future workflows (with some team members already starting to implement git workflows in their own work!) With many more possible extensions, this collaboration has been brilliantly productive and will continue beyond ASTRODAT!
+                            </p>
+                        </div>
+                        <div class="col-5 col-4-medium col-8-small">
+                            <span class="image fit"><img src="images/TeamBlackWidow.jpg" alt="Team Black Widow group photo" /></span>
+                        </div>
+                        <div class="col-6 col-8-medium col-12-small">
+                            <h3>Team Hawkeye</h3>
+                            <p>
+                                <a href="https://github.com/sarahcjohnston/astrodat_hawkeye" target="_blank" rel="noopener noreferrer">HAWKEYE</a> - Hierarchical Analysis With Knowledge of lEnsing, Yielding Estimates <br>
+                                This project models a gravitational lensing system by simulating the deflection of light from a background galaxy (represented by a Sérsic profile) by a foreground mass modeled as a Singular Isothermal Sphere. The simulation generates a mock lensed image, and Bayesian inference is used to recover the underlying physical parameters by comparing model predictions to the simulated data via a chi-squared likelihood. An MCMC sampler is employed to explore the 8-dimensional parameter space, which includes the Einstein radius, Sérsic parameters, intensity, and the positions of both the lens and the source. To accelerate computation and enable GPU portability, the core simulation and likelihood functions have been converted to JAX, allowing for efficient execution on modern hardware.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
 
 		<!-- Organisers -->
 			<article id="organisers2025" class="wrapper style2">
