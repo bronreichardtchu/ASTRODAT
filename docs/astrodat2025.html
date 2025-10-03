@@ -175,6 +175,12 @@
                                 This project models a gravitational lensing system by simulating the deflection of light from a background galaxy (represented by a Sérsic profile) by a foreground mass modeled as a Singular Isothermal Sphere. The simulation generates a mock lensed image, and Bayesian inference is used to recover the underlying physical parameters by comparing model predictions to the simulated data via a chi-squared likelihood. An MCMC sampler is employed to explore the 8-dimensional parameter space, which includes the Einstein radius, Sérsic parameters, intensity, and the positions of both the lens and the source. To accelerate computation and enable GPU portability, the core simulation and likelihood functions have been converted to JAX, allowing for efficient execution on modern hardware.
                             </p>
                         </div>
+						<div class="col-6 col-8-medium col-12-small">
+                            <h3>Team Iron Man</h3>
+                            <p>
+                                 The Ironman group project focused on developing practical expertise in using Simulation-Based Inference (SBI) to constrain cosmological parameters with Weak Lensing and Large Scale Structure data. We created interactive notebooks to perform posterior estimation with both Sequential Neural Likelihood Estimation (SNLE) and Neural Posterior Estimation (NPE). Our analysis focused on a simulated nonlinear matter power spectrum with Gaussian noise, though tentative success was reached with simulated shear angular power spectra. To generate a representative training set, we sampled the parameter space with a Latin hypercube design and leveraged fast emulators from the literature, including cosmopower_jax and EuclidEmulator2. For dimensionality reduction, we employed Canonical Correlation Analysis (CCA), and we then used the sbi package to obtain and visualize posterior distributions for the simulated data vector. We found overall good precision and speed even for the simplified analysis. The project github repository can be found <a href="https://github.com/davidesciotti/AstroDat" target="_blank" rel="noopener noreferrer">here</a>.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </article>
